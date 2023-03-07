@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ </title>
+    <style type="text/css">
+        div.tomau {
+            border: 20px solid;
+            border-top-color: #85C226;
+            border-right-color: #F7C200;
+            border-bottom-color: #4493A0;
+            border-left-color: #DF127B;
+            border-style: solid;
+            text-align: center;
+            border-top-left-radius: 0px;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 70px;
+            border-bottom-left-radius: 20px;
+        }
+        
+        th,
+        tr {}
+        
+        table {
+            width: 80%;
+            margin-left: 1%;
+            color: rgb(173, 167, 167);
+            font-style: normal;
+        }
+    </style>
+    <h1><b>Border Radius</b></h1>
+
+</head>
+
+<body>
+    <p><b>Syntax : </b>border-radius (top-left)(top-right)(bottom-right)(bottom-left)</p>
+    <p><b>Exmaple:</b> border-radius :0px 30px 70px 20px</p>
+    <p>For displaying round corners Border Radius property is used.</p>
+    <p>IE9 and Opera use the same code. For Firefox a prefix ".moz" needs to be added before the code. And for Webkit Browsers ".webki." needs to be added before the code.</p>
+    <p>Box-shadow property for all the browsers.</p>
+    <table>
+        <tr>
+            <th style="color: black;">For IE and Opera</th>
+            <th>box-shadow;</th>
+            <th>0px 30px 70px 20px;</th>
+        </tr>
+        <tr>
+            <th style="color: black;">For Mozilla Firefox</th>
+            <th>-moz-box-shadow;</th>
+            <th>0px 30px 70px 20px20px;</th>
+        </tr>
+        <tr>
+            <th style="color: black;">For Webkit Browsers</th>
+            <th>-webkit-box-shadow;</th>
+            <th>0px 30px 70px 20px;</th>
+        </tr>
+    </table>
+    <div class="tomau ">
+        <p>No border radius(0px) has been applied on the top-left(green light),</p>
+        <p>Border radius(30px) has been applied on the top -right(green yellow),</p>
+        <p>Border radius(70px) has been applied on the bottom-right(blue-yellow) corner,</p>
+        <p>Border radius(20px) has been applied on the bottom-left(blue-pink) corner.</p>
+    </div>
+</body>
+
+</html>

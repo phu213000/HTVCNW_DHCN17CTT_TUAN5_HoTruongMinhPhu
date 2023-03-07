@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <style type="text/css">
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: #333;
+        }
+        
+        nav ul li {
+            display: inline-block;
+            position: relative;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        nav ul li:hover>ul {
+            display: block;
+        }
+        
+        nav ul ul li {
+            display: block;
+            width: 200px;
+            margin: 0;
+        }
+        
+        nav ul ul li a {
+            padding: 10px 20px;
+            color: #0af51e;
+            display: block;
+            text-decoration: none;
+        }
+        
+        nav ul ul li a:hover {
+            background-color: #57ef46;
+        }
+        
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 40px;
+            left: 0;
+            background-color: #0e15e7;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home>></a>
+            </li>
+            <li>
+                <a href="#">Introduction>></a>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+                <ul>
+                    <li>Photography</li>
+                    <li>Web & User Interface <br> Design
+                    </li>
+                    <li>Illustration</li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">News</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>
